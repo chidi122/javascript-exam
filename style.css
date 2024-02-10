@@ -1,0 +1,86 @@
+.hero{
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style:italic;
+ background-image: url(coffe.jpg);
+ color:white;
+}
+
+
+
+footer {
+  background-color:black;
+  text-align: center;
+ margin: 20px;
+ padding: 10px;
+}
+
+.social-icons a {
+  margin: 0 1px;
+  color: #333;
+  text-decoration: none;
+}
+
+.newsletter {
+  margin-top: 20px;
+}
+
+.newsletter input[type=email] {
+  margin: 0 5px;
+  padding: 1px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+
+
+.social-icons button {
+  margin: 0 2px;
+  padding: 4px;
+  border: none;
+  background-color: pink;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.social-icons button a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-icons button a i {
+  font-size: 16px; 
+  color: black;
+  
+}
+
+.newsletter {
+  margin-top: 20px;
+}
+
+.newsletter input[type=email] {
+  margin: 0 5px;
+  padding: 2px;
+  border: 1px solid  #ddd;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 2px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.newsletter{
+  color: white;
+}
+
+.container{
+  background-color:rgba(255, 0, 0, 0.719);
+}

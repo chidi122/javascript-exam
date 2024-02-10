@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Code Review</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+  </head>
+  <body>
+   
+    <nav class="navbar navbar-expand-lg bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Myplanner</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Task</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Settings</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown link
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+                <li><a class="dropdown-item" href="#">Link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    
+    
+  
+    <div class="hero">
+     
+      <h1>Weekly Planner</h1>
+    </div>
+  
+    <div>
+      <button class="btn btn-primary" onclick="sortTasks()">Sort by priority</button>
+  </div>
+
+    <div class="container " >
+      <div class="row row-col-lg3 row-cols-md-2 row-cols-sm-1 row-cols-xs-1 mt-5 gap-3 justify-content-center" id="duty">
+
+          <div class="card mx-2" style="width: 18rem;">
+              <p>Weekly Tasks</p>
+              <img src="benz.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <img src="benz.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <img src="benz.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <img src="benz.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <img src="benz.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+              <img src="benz.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </div>
+          
+          <div class="card" style="width: 18rem;">
+            <img src="benz.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">card title</h5>
+                <p class="card-text">some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="benz.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+      </div>
+          
+    </div>  
+
+    <footer>
+      <!-- social icon buttons take you to various media platform -->
+      <div class="social-icons">
+        <button><a href="https://facebook.com"><i class="fab fa-facebook"></i></a></button>
+        <button><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></button>
+        <button><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></button>
+        <button><a href="https://github.com"><i class="fab fa-github"></i></a></button>
+        <button><a href="https://linkedin.com"><i class="fab fa-linkedin-in"></i></a></button>
+      </div>
+      <div class="newsletter"><br><br>
+        Sign up for our newsletter
+        <input type="email" placeholder="">
+        <button>Subscribe</button>
+        <br>
+        <br>
+        <p>&copy; 2024 Copywrite:Ubah</p>
+      </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+  
+
+
+
+
+
+
+
+ 
